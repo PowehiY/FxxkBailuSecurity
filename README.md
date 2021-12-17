@@ -7,7 +7,7 @@
 网页端每秒复制试题到剪贴板, Python监听剪贴板内容, 在题库中查找答案并输出.
 
 ## 使用方法
-* `git clone https://github.com/FupengWang/FxxkBailuSecurity`
+* `git clone https://github.com/FupengWang/FxxkBailuSecurity` 将该项目下载至本地
 * PC浏览器打开你的答题界面"https://seducts.xinhuayinzhou.com/#/competition/answer/12345", 按下F12打开开发者工具, 并选择"Console"
 * 打开`./FxxkBailuSecurity/browser.js` 将其中的代码复制到"Console"中. (此时你的Console应该在输出当前题目, 频率1s)
 * 打开`./FxxkBailuSecurity/getAnswer.exe`即可看到自动输出的试题答案
